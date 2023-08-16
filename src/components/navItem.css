@@ -1,0 +1,10 @@
+.path{
+    stroke-dasharray:1800;
+    stroke-dashoffset:1800;
+    transition: 1.5s all;
+}
+
+.check:hover svg g path {
+    stroke-dashoffset:0;
+}
+ 

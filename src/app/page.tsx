@@ -1,9 +1,124 @@
 import Image from 'next/image'
+import Link from 'next/link'
+
+// fonts
+import { inter, caprasimo, croissant, augillion, monsterrat400, monsterrat700 } from './fonts' 
+
+// components
+import TextSlider from '@/components/textSlider'
+
+// images
+import star from './../assets/star.svg'
+
+// icons
+import { FaDna, FaLaptopCode } from 'react-icons/fa' 
+import { BiDna } from 'react-icons/bi'
+import { AiOutlineLaptop } from 'react-icons/ai'
+import { MdOutlineHandshake } from 'react-icons/md'
+
+// slider items
+const whoAmI = [
+  {
+    text: 'biostats researcher',
+    icon: <div className='sm:text-xl'><BiDna /></div>
+  },
+  {
+    text: 'programmer',
+    icon: <div className='text-lg sm:text-2xl'><AiOutlineLaptop /></div>
+  },
+  {
+    text: 'nonprofit treasurer',
+    icon: <div className='text-lg sm:text-2xl'><MdOutlineHandshake /></div>
+  }
+]
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
+    <main className="">
+        <div className={augillion.className}>
+          <div className='flex gap-2 md:gap-4 duration-100'>
+            <h1 className='text-4xl md:text-7xl text-white'>
+              <a className='text-3xl leading-10 md:text-6xl'>H</a>i! <a className='text-3xl md:text-6xl'>I</a>'m
+            </h1>
+            <span className='translate-y-[-1.5rem] md:translate-y-[-1.5rem] select-none' 
+              aria-hidden="true"
+            >
+              <Image
+                src={star}
+                alt="Tiffany's Logo"
+                className="scale-50 md:scale-100"
+                width={38}
+                height={38}
+                priority
+              />
+            </span>
+          </div>
+          <div className='text-7xl md:text-9xl text-lilac flex gap-2 md:gap-6 duration-100'>
+            <span className='absolute translate-x-[-1rem] translate-y-[3rem]
+              md:translate-x-[-1.5rem] md:translate-y-[6rem] select-none' 
+              aria-hidden="true"
+            >
+              <Image
+                src={star}
+                alt="Tiffany's Logo"
+                className="scale-75 md:scale-100"
+                width={22}
+                height={22}
+                priority
+              />
+            </span>
+            <span className='absolute translate-x-[-2.5rem] translate-y-[1rem]
+              md:translate-x-[-3rem] md:translate-y-[3rem] select-none' 
+            aria-hidden="true">
+              <Image
+                src={star}
+                alt="Tiffany's Logo"
+                className="scale-75 md:scale-100"
+                width={32}
+                height={32}
+                priority
+              />
+            </span>
+            <h1 className='translate-y-[-0.75rem] md:translate-y-0'>
+              <a className='text-6xl md:text-[7rem] text-purple-400'>T</a>
+              <a className='text-clementime'>i</a>
+              <a className='text-amber-600'>f</a>
+              <a className='text-mustard'>f</a>
+              <a className='text-indigo-300'>a</a>
+              <a className='text-magenta'>n</a>
+              <a className='text-clementime'>y</a>
+            </h1>
+            <h1 className='translate-y-[-0.75rem] md:translate-y-0'>
+              <a className='text-6xl md:text-[7rem] text-mustard'>P</a>
+              <a className='text-blurple'>e</a>
+              <a className='text-indigo-300'>i</a>
+            </h1>
+            <span className='translate-y-[2rem] md:translate-y-[4rem] select-none' aria-hidden="true">
+              <Image
+                src={star}
+                alt="Tiffany's Logo"
+                className="scale-75 md:scale-100" 
+                width={28}
+                height={28}
+                priority
+              />
+            </span>
+          </div>
+        </div>
+        <div className={ monsterrat400.className }>
+          <div className='ml-2 sm:ml-4 text-indigo-200 sm:text-2xl flex flex-wrap gap-x-4'>
+            <p className=''>A public health student and</p>
+            <div className={ monsterrat700.className }>
+              <TextSlider items={whoAmI} fontsize={2} scrollsize={2.5} />
+            </div>
+          </div>
+        </div>
+        
+        
+      <div className='w-full h-full'>
+        
+      </div>
+      {/* <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
           Get started by editing&nbsp;
           <code className="font-mono font-bold">src/app/page.tsx</code>
@@ -107,7 +222,7 @@ export default function Home() {
             Instantly deploy your Next.js site to a shareable URL with Vercel.
           </p>
         </a>
-      </div>
+      </div> */}
     </main>
   )
 }
