@@ -1,4 +1,4 @@
-import { Inter, Caprasimo ,Croissant_One, Montserrat_Alternates  } from 'next/font/google'
+import { Inter ,Croissant_One, Montserrat_Alternates  } from 'next/font/google'
 import localFont from 'next/font/local'
 
 export const inter = Inter({
@@ -6,11 +6,6 @@ export const inter = Inter({
   display: 'swap',
 })
 
-
-export const caprasimo = Caprasimo({ 
-    weight: '400', 
-    subsets: ['latin'] 
-})
 
 export const croissant = Croissant_One({
     weight: '400',

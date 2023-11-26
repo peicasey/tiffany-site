@@ -143,19 +143,19 @@ export default function Page() {
           <div className='text-black dark:text-white'>
             <div className='flex flex-wrap gap-x-2'>
               <p className='mb-4'>
-                Hi, I'm Tiffany, a student in my 3rd year of the
+                Hi, I&apos;m Tiffany, a student in my 3rd year of the
                 <a href='https://public-health.tamu.edu/degrees/dual/bs-mph.html#tab-panel-2' 
                   target="_blank" rel="noopener noreferrer" 
                   className='text-indigo-300 hover:text-purple-400'
                 >
-                  <b className={monsterrat700.className}> 3+2 Master's program </b>
+                  <b className={monsterrat700.className}> 3+2 Master&apos;s program </b>
                 </a>
-                at Texas A&M University. Here, I'm obtaining my
+                at Texas A&M University. Here, I&apos;m obtaining my
                 <a href='https://public-health.tamu.edu/index.html' 
                   target="_blank" rel="noopener noreferrer" 
                   className='text-indigo-300 hover:text-purple-400'
                 >
-                  <b className={monsterrat700.className}> Bachelor's and Master's in Public Health (BSPH + MPH) </b>
+                  <b className={monsterrat700.className}> Bachelor&apos;s and Master&apos;s in Public Health (BSPH + MPH) </b>
                 </a>
                 with a minor in 
                 <a href='https://engineering.tamu.edu/cse/index.html' 
@@ -175,9 +175,9 @@ export default function Page() {
               </p>
 
               <p className='mb-4'>
-                When I'm not testing a new recipe in the community kitchen or 
+                When I&apos;m not testing a new recipe in the community kitchen or 
                 learning about niche health insurance policy --
-                you'll find me scrolling away on Tumblr, listening to the Deathnote 
+                you&apos;ll find me scrolling away on Tumblr, listening to the Deathnote 
                 Musical, or re-watching
                 <a href='https://www.youtube.com/technoblade' 
                   target="_blank" rel="noopener noreferrer" 

@@ -9,13 +9,13 @@ interface TextItem {
     icon: any
 }
 
-interface TextSliderProps{
+interface TextSwitchProps{
     items: TextItem[],
     fontsize: number,
     scrollsize: number,
 }
 
-export default function TextSwitch(props: TextSliderProps) {
+export default function TextSwitch(props: TextSwitchProps) {
 
     const [index, setIndex] = useState(0);
 

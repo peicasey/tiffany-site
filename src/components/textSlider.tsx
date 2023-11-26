@@ -15,6 +15,8 @@ interface TextSliderProps{
     scrollsize: number,
 }
 
+
+
 export default function TextSlider(props: TextSliderProps) {
 
     const delay = 2500;
@@ -27,7 +29,7 @@ export default function TextSlider(props: TextSliderProps) {
         clearTimeout(timeoutRef.current);
       }
     }
-  
+
     useEffect(() => {
       resetTimeout();
       timeoutRef.current = setTimeout(
@@ -41,7 +43,7 @@ export default function TextSlider(props: TextSliderProps) {
       return () => {
         resetTimeout();
       };
-    }, [index]);
+    }, [index, props.items.length]);
 
     function scrollNext() {
         setIndex((index+1) % props.items.length)

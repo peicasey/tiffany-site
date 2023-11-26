@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 // fonts
-import { inter, caprasimo, croissant, augillion, monsterrat400, monsterrat700 } from './fonts' 
+import { inter, croissant, augillion, monsterrat400, monsterrat700 } from './fonts' 
 
 // components
 import TextSlider from '@/components/textSlider'
@@ -47,14 +47,14 @@ export default function Home() {
         <div className={augillion.className}>
           <div className='flex gap-2 md:gap-4 duration-100'>
             <h1 className='text-4xl md:text-7xl text-white'>
-              <a className='text-3xl leading-10 md:text-6xl'>H</a>i! <a className='text-3xl md:text-6xl'>I</a>'m
+              <a className='text-3xl leading-10 md:text-6xl'>H</a>i! <a className='text-3xl md:text-6xl'>I</a>&apos;m
             </h1>
             <span className='translate-y-[-1.5rem] md:translate-y-[-1.5rem] select-none' 
               aria-hidden="true"
             >
               <Image
                 src={star}
-                alt="Tiffany's Logo"
+                alt="Tiffany&apos;s Logo"
                 className="scale-50 md:scale-100"
                 width={38}
                 height={38}
@@ -69,7 +69,7 @@ export default function Home() {
             >
               <Image
                 src={star}
-                alt="Tiffany's Logo"
+                alt="Tiffany&apos;s Logo"
                 className="scale-75 md:scale-100"
                 width={22}
                 height={22}
@@ -81,7 +81,7 @@ export default function Home() {
             aria-hidden="true">
               <Image
                 src={star}
-                alt="Tiffany's Logo"
+                alt="Tiffany&apos;s Logo"
                 className="scale-75 md:scale-100"
                 width={32}
                 height={32}
@@ -105,7 +105,7 @@ export default function Home() {
             <span className='translate-y-[2rem] md:translate-y-[4rem] select-none' aria-hidden="true">
               <Image
                 src={star}
-                alt="Tiffany's Logo"
+                alt="Tiffany&apos;s Logo"
                 className="scale-75 md:scale-100" 
                 width={28}
                 height={28}
@@ -118,7 +118,7 @@ export default function Home() {
           <div className='ml-2 md:ml-4 text-indigo-200 md:text-2xl flex flex-wrap gap-x-2 md:gap-x-4'>
             <p className=''>I study public health and </p>
             <div className={ monsterrat700.className }>
-              <TextSlider items={whoAmI} fontsize={2} scrollsize={2.5} />
+              <TextSlider items={whoAmI} itemsLength={whoAmI.length} fontsize={2} scrollsize={2.5} />
             </div>
           </div>
         </div>

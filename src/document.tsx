@@ -23,10 +23,10 @@ import Document, {
               // crossOrigin="true"
             />
             <noscript>
-                <link 
+                {/* <link 
                     href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" 
                     rel="stylesheet"
-                /> 
+                />  */}
             </noscript>
           </Head>
           <body className='bg-lilac dark:bg-moody'>

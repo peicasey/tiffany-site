@@ -5,7 +5,6 @@ import type { Metadata } from 'next'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
-
 export const metadata: Metadata = {
   title: "Tiffany's Site",
   description: 'A personal website for public health student, Tiffany Pei :)',
