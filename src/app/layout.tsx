@@ -29,14 +29,14 @@ export const metadata: Metadata = {
     siteName: 'Tiffany Pei',
     images: [
       {
-        url: 'https://tiffany-site.vercel.app/og.png',
+        url: 'https://tiffany-site.vercel.app/favicon-32x32.png',
         width: 800,
-        height: 600,
+        height: 800,
       },
       {
-        url: 'https://tiffany-site.vercel.app/og-alt.png',
-        width: 1800,
-        height: 1600,
+        url: 'https://tiffany-site.vercel.app/icon.png',
+        width: 800,
+        height: 800,
         alt: 'My custom alt',
       },
     ],
@@ -79,7 +79,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='overflow-x-hidden'>
+      <body className='overflow-x-hidden bg-lilac dark:bg-moody'>
         <div className='flex min-h-screen flex-col items-center gap-16 justify-between
           py-12 px-12 sm:px-28 md:px-32 lg:px-48
           selection:bg-purple-300 selection:text-violet-700

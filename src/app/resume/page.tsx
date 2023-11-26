@@ -14,7 +14,7 @@ export default function Page() {
 
   return (
     <div className={ monsterrat400.className }>
-      <div className="mb-4 text-indigo-700 dark:text-indigo-300">
+      <div className="mb-4 text-black dark:text-white">
         { isLoading ? 
           <div className='flex gap-2 items-center'>
             <p>Retrieving resume...</p>
@@ -24,7 +24,7 @@ export default function Page() {
           : 
           <div className='flex gap-2'>
             <p>Huzzah! Here it is</p>
-            <p aria-hidden="true">\( ﾟヮﾟ)/</p>
+            <p aria-hidden="true">ᐠ( ᐛ )ᐟ</p>
           </div>
         }
       </div>

@@ -6,7 +6,7 @@ import NavItem from './navItem'
 export default function Navbar() {
     return (
         <div className='w-full flex justify-between items-center'>
-            <Link href="/">
+            <Link className='hover:scale-110 duration-200' href="/">
                 <Image
                     src="/logo.svg"
                     alt="Tiffany's Logo"

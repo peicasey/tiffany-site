@@ -10,7 +10,7 @@ import { monsterrat400, monsterrat700 } from '../fonts'
 // icons
 import { PiGraduationCapBold } from 'react-icons/pi' 
 import { BiDna } from 'react-icons/bi'
-import { AiOutlineLaptop } from 'react-icons/ai'
+import { AiOutlineLineChart, AiOutlineLaptop } from 'react-icons/ai'
 import { MdOutlineHandshake } from 'react-icons/md'
 import { BsPeople } from 'react-icons/bs'
 import { PiBowlFood } from 'react-icons/pi'
@@ -37,7 +37,7 @@ const currently = [
   {
     text: 
       <p>
-        Serving as Treasurer of 
+        Leading as the treasurer of 
         <a href='https://winetowatertamu.wixsite.com/website' 
           target="_blank" rel="noopener noreferrer" 
           className='text-indigo-300 hover:text-purple-400'
@@ -48,16 +48,43 @@ const currently = [
     icon: <div className='text-sm sm:text-xl'><MdOutlineHandshake /></div>
   },
   {
-    text: 'talk on health disparities',
+    text: 
+      <p>
+        Discussing health disparities at the
+        <a href='https://www.linkedin.com/company/tamu-eso/' 
+          target="_blank" rel="noopener noreferrer" 
+          className='text-indigo-300 hover:text-purple-400'
+        >
+          <b className={monsterrat700.className}> Epidemiology Student Organization</b>
+        </a>
+      </p>,
     icon: <div className='text-md sm:text-xl'><BsPeople /></div>
-  },
+  },  
   {
-    text: 'find trends in maternal diet',
-    icon: <div className='text-md sm:text-xl'><PiBowlFood /></div>
-  },
-  {
-    text: 'code new R programs',
+    text: 
+      <p>
+        Fiddling with AI Chatbots at the
+        <a href='https://aggiecodingclub.com' 
+          target="_blank" rel="noopener noreferrer" 
+          className='text-indigo-300 hover:text-purple-400'
+        >
+          <b className={monsterrat700.className}> Aggie Coding Club</b>
+        </a>
+      </p>,
     icon: <div className='text-md sm:text-xl'><AiOutlineLaptop /></div>
+  },
+  {
+    text: 
+      <p>
+        Predicting salary outcomes of students at the
+        <a href='https://www.aggiedatascience.com/' 
+          target="_blank" rel="noopener noreferrer" 
+          className='text-indigo-300 hover:text-purple-400'
+        >
+          <b className={monsterrat700.className}> Aggie Data Science Club</b>
+        </a>
+      </p>,
+    icon: <div className='text-lg sm:text-2xl'><AiOutlineLineChart /></div>
   },
 ]
 
@@ -100,6 +127,17 @@ export default function Page() {
             <p className={monsterrat700.className}>
               ENG
             </p>
+            <Image
+              src={star}
+              alt="star"
+              className=""
+              width={12}
+              height={12}
+              priority
+            />
+            <p className={monsterrat700.className}>
+              FRN
+            </p>
           </div>
           
           <div className='text-black dark:text-white'>
@@ -133,18 +171,28 @@ export default function Page() {
                 I aspire to make the world better using epidemiology and biostats, 
                 and am specifically interested in accessibility,
                 infectious disease and maternal health. 
+                <span aria-hidden='true'>  (ง •̀ω•́)ง✧</span>
               </p>
 
               <p className='mb-4'>
                 When I'm not testing a new recipe in the community kitchen or 
-                learning about niche health insurance policy,
-                you'll find me scrolling away on Tumblr, listening to
+                learning about niche health insurance policy --
+                you'll find me scrolling away on Tumblr, listening to the Deathnote 
+                Musical, or re-watching
+                <a href='https://www.youtube.com/technoblade' 
+                  target="_blank" rel="noopener noreferrer" 
+                  className='text-indigo-300 hover:text-purple-400'
+                >
+                  <b className={monsterrat700.className}> Technoblade </b>
+                </a>
+                streams late into the night. Thanks for visiting my page
+                and I hope this gives a better idea of who I am!
               </p>
             </div>
             
             
             <p className={monsterrat700.className}>
-              Currently:
+              Currently I am:
             </p>
             <ul className='list-disc ml-4'>
               {currently.map((activity, index) => (

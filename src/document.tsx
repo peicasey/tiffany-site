@@ -29,7 +29,7 @@ import Document, {
                 /> 
             </noscript>
           </Head>
-          <body>
+          <body className='bg-lilac dark:bg-moody'>
             <Main />
             <NextScript />
           </body>

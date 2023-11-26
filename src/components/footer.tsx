@@ -34,7 +34,7 @@ export default function Footer() {
                     <HiOutlineExternalLink />
                 </div>
                 <div className='hover:text-purple-400 flex items-center gap-2'>
-                    <a href='' target="_blank" rel="noopener noreferrer">Resume</a>
+                    <Link href="/resume">Resume</Link>
                     <HiOutlineExternalLink />
                 </div>
             </div>
