@@ -11,25 +11,34 @@ import TextSlider from '@/components/textSlider'
 import star from './../assets/star.svg'
 
 // icons
-import { FaDna, FaLaptopCode } from 'react-icons/fa' 
 import { BiDna } from 'react-icons/bi'
 import { AiOutlineLaptop } from 'react-icons/ai'
 import { MdOutlineHandshake } from 'react-icons/md'
+import { BsPeople } from 'react-icons/bs'
+import { PiBowlFood } from 'react-icons/pi'
 
 // slider items
 const whoAmI = [
   {
-    text: 'biostats researcher',
+    text: 'do biostats research',
     icon: <div className='sm:text-xl'><BiDna /></div>
   },
   {
-    text: 'programmer',
-    icon: <div className='text-lg sm:text-2xl'><AiOutlineLaptop /></div>
+    text: 'lead at a university nonprofit',
+    icon: <div className='text-lg sm:text-2xl'><MdOutlineHandshake /></div>
   },
   {
-    text: 'nonprofit treasurer',
-    icon: <div className='text-lg sm:text-2xl'><MdOutlineHandshake /></div>
-  }
+    text: 'talk on health disparities',
+    icon: <div className='text-lg sm:text-2xl'><BsPeople /></div>
+  },
+  {
+    text: 'find trends in maternal diet',
+    icon: <div className='text-lg sm:text-2xl'><PiBowlFood /></div>
+  },
+  {
+    text: 'code new R programs',
+    icon: <div className='text-lg sm:text-2xl'><AiOutlineLaptop /></div>
+  },
 ]
 
 export default function Home() {
@@ -106,8 +115,8 @@ export default function Home() {
           </div>
         </div>
         <div className={ monsterrat400.className }>
-          <div className='ml-2 sm:ml-4 text-indigo-200 sm:text-2xl flex flex-wrap gap-x-4'>
-            <p className=''>A public health student and</p>
+          <div className='ml-2 md:ml-4 text-indigo-200 md:text-2xl flex flex-wrap gap-x-2 md:gap-x-4'>
+            <p className=''>I study public health and </p>
             <div className={ monsterrat700.className }>
               <TextSlider items={whoAmI} fontsize={2} scrollsize={2.5} />
             </div>
