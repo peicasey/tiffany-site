@@ -10,7 +10,7 @@ import { FaHeart } from 'react-icons/fa'
 
 export default function Footer() {
     return (
-        <div className='w-full flex justify-between text-sm sm:text-md text-indigo-500 dark:text-indigo-300'>
+        <div className='w-full flex items-center justify-between text-xs sm:text-md text-indigo-500 dark:text-indigo-300'>
             
             <div className={monsterrat700.className}>
                 <p className='text-2xl sm:text-3xl'>Contact me!</p>

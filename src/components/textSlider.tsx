@@ -85,7 +85,7 @@ export default function TextSlider(props: TextSliderProps) {
                 >
                     {props.items.map((item, index) => (
 
-                        <div key={index} className='flex items-center mt-[1px] sm:mt-0 gap-2'>
+                        <div key={index} className='flex items-center truncate mt-[1px] sm:mt-0 gap-2'>
                             <div>
                                 {item.text}
                             </div>

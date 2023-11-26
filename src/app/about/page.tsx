@@ -96,9 +96,7 @@ export default function Page() {
           <Image
             src={Tiff}
             alt="A simplistic illustration of Tiffany Pei"
-            className="rounded-[50%]"
-            width={248}
-            height={248}
+            className="w-1/2 sm:w-50 h-auto rounded-[50%]"
             priority
           />
           <div className='mt-2 mb-4 text-indigo-400 dark:text-indigo-300 flex gap-2'>
@@ -140,7 +138,7 @@ export default function Page() {
             </p>
           </div>
           
-          <div className='text-indigo-950 dark:text-white'>
+          <div className='text-indigo-950 dark:text-white text-sm sm:text-md'>
             <div className='flex flex-wrap gap-x-2'>
               <p className='mb-4'>
                 Hi, I&apos;m Tiffany, a student in my 3rd year of the
@@ -194,12 +192,12 @@ export default function Page() {
             <p className={monsterrat700.className}>
               Currently I am:
             </p>
-            <ul className='list-disc ml-4'>
+            <ul className='list-none ml-4 translate-x-[-1rem]'>
               {currently.map((activity, index) => (
 
-              <li key={index}>
-                <div className='inline-flex items-center gap-2'>
-                  {activity.icon}
+              <li key={index} className='my-4'>
+                <div className='inline-flex items-baseline sm:items-center gap-2 text-sm sm:text-md'>
+                  <div className='translate-y-0.5'>{activity.icon}</div>
                   {activity.text}                   
                 </div>
               </li>

@@ -28,7 +28,12 @@ export default function Page() {
           </div>
         }
       </div>
-      <iframe src="https://drive.google.com/file/d/1ftjgwtEejwKk3NVNTiOyEWj78l0ll13g/preview" width="640" height="850" allow="autoplay" onLoad={() => setIsLoading(false)} />
+      <iframe 
+        src="https://drive.google.com/file/d/1ftjgwtEejwKk3NVNTiOyEWj78l0ll13g/preview" 
+        className='w-full h-[22rem] sm:h-[50rem]'
+        width="640" height="850" 
+        allow="autoplay" onLoad={() => setIsLoading(false)} 
+      />
       <p className='mt-4 text-indigo-950 dark:text-white'>
         Last updated: 
         <span className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'> 
