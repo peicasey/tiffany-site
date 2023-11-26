@@ -118,7 +118,7 @@ export default function Home() {
           <div className='ml-2 md:ml-4 text-indigo-200 md:text-2xl flex flex-wrap gap-x-2 md:gap-x-4'>
             <p className=''>I study public health and </p>
             <div className={ monsterrat700.className }>
-              <TextSlider items={whoAmI} itemsLength={whoAmI.length} fontsize={2} scrollsize={2.5} />
+              <TextSlider items={whoAmI} fontsize={2} scrollsize={2.5} />
             </div>
           </div>
         </div>
