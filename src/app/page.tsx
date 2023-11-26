@@ -46,7 +46,7 @@ export default function Home() {
     <main className="">
         <div className={augillion.className}>
           <div className='flex gap-2 md:gap-4 duration-100'>
-            <h1 className='text-4xl md:text-7xl text-white'>
+            <h1 className='text-4xl md:text-7xl text-indigo-300 dark:text-white'>
               <a className='text-3xl leading-10 md:text-6xl'>H</a>i! <a className='text-3xl md:text-6xl'>I</a>&apos;m
             </h1>
             <span className='translate-y-[-1.5rem] md:translate-y-[-1.5rem] select-none' 
@@ -62,7 +62,7 @@ export default function Home() {
               />
             </span>
           </div>
-          <div className='text-7xl md:text-9xl text-lilac flex gap-2 md:gap-6 duration-100'>
+          <div className='text-7xl md:text-9xl text-indigo-500 dark:text-lilac flex gap-2 md:gap-6 duration-100'>
             <span className='absolute translate-x-[-1rem] translate-y-[3rem]
               md:translate-x-[-1.5rem] md:translate-y-[6rem] select-none' 
               aria-hidden="true"
@@ -115,7 +115,7 @@ export default function Home() {
           </div>
         </div>
         <div className={ monsterrat400.className }>
-          <div className='ml-2 md:ml-4 text-indigo-200 md:text-2xl flex flex-wrap gap-x-2 md:gap-x-4'>
+          <div className='ml-2 md:ml-4 text-indigo-500 dark:text-indigo-200 md:text-2xl flex flex-wrap gap-x-2 md:gap-x-4'>
             <p className=''>I study public health and </p>
             <div className={ monsterrat700.className }>
               <TextSlider items={whoAmI} fontsize={2} scrollsize={2.5} />

@@ -78,12 +78,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='overflow-x-hidden bg-lilac dark:bg-moody'>
+      <body className='overflow-x-hidden bg-violet-100 dark:bg-moody'>
         <div className='flex min-h-screen flex-col items-center gap-16 justify-between
           py-12 px-12 sm:px-28 md:px-32 lg:px-48
           selection:bg-purple-300 selection:text-violet-700
           dark:selection:bg-violet-600 dark:selection:text-purple-100
-          bg-lilac dark:bg-moody'
+          bg-violet-100 dark:bg-moody'
         >
           <Navbar />
           <div className='w-full h-full'>

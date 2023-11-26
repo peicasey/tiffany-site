@@ -18,7 +18,7 @@ export default function NavItem(props: NavItemProps) {
   return (
     <div className="check group hover:cursor-pointer flex items-center justify-center" >
 
-      <svg className={'absolute group-hover:opacity-100 opacity-0' } // scale-y-[0.2] scale-x-[0.3] translate-x-4 rotate-[' + angle + 'deg] ' + test
+      <svg className={'absolute group-hover:opacity-25 dark:group-hover:opacity-100 opacity-0' } // scale-y-[0.2] scale-x-[0.3] translate-x-4 rotate-[' + angle + 'deg] ' + test
         style={{'zIndex': 0, 'transform': 'scale(0.3, 0.2) translateX(3rem) rotate(' + angle + 'deg)'}}
       >
         <g transform="matrix(0.35 0 0 0.3 110 80)">
@@ -29,7 +29,7 @@ export default function NavItem(props: NavItemProps) {
         </g>
       </svg>
 
-      <div className='group-hover:text-indigo-100 text-indigo-300 duration-200' style={{'zIndex': 1}}>
+      <div className='group-hover:text-violet-500 dark:group-hover:text-indigo-100 text-indigo-500 dark:text-indigo-300 duration-200' style={{'zIndex': 1}}>
         <div className={monsterrat700.className}>
           <Link href={props.link}>{props.name}</Link>
         </div>

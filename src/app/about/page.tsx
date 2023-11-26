@@ -27,7 +27,7 @@ const currently = [
         Conducting biostats research at the 
         <a href='https://ibt.tamu.edu/faculty/kurt-zhang.html' 
           target="_blank" rel="noopener noreferrer" 
-          className='text-indigo-300 hover:text-purple-400'
+          className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
         >
           <b className={monsterrat700.className}> Texas A&M Health Science Center</b>
         </a>
@@ -40,7 +40,7 @@ const currently = [
         Leading as the treasurer of 
         <a href='https://winetowatertamu.wixsite.com/website' 
           target="_blank" rel="noopener noreferrer" 
-          className='text-indigo-300 hover:text-purple-400'
+          className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
         >
           <b className={monsterrat700.className}> Wine to Water</b>
         </a>
@@ -53,7 +53,7 @@ const currently = [
         Discussing health disparities at the
         <a href='https://www.linkedin.com/company/tamu-eso/' 
           target="_blank" rel="noopener noreferrer" 
-          className='text-indigo-300 hover:text-purple-400'
+          className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
         >
           <b className={monsterrat700.className}> Epidemiology Student Organization</b>
         </a>
@@ -66,7 +66,7 @@ const currently = [
         Fiddling with AI Chatbots at the
         <a href='https://aggiecodingclub.com' 
           target="_blank" rel="noopener noreferrer" 
-          className='text-indigo-300 hover:text-purple-400'
+          className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
         >
           <b className={monsterrat700.className}> Aggie Coding Club</b>
         </a>
@@ -79,7 +79,7 @@ const currently = [
         Predicting salary outcomes of students at the
         <a href='https://www.aggiedatascience.com/' 
           target="_blank" rel="noopener noreferrer" 
-          className='text-indigo-300 hover:text-purple-400'
+          className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
         >
           <b className={monsterrat700.className}> Aggie Data Science Club</b>
         </a>
@@ -101,7 +101,7 @@ export default function Page() {
             height={248}
             priority
           />
-          <div className='mt-2 mb-4 text-indigo-700 dark:text-indigo-300 flex gap-2'>
+          <div className='mt-2 mb-4 text-indigo-400 dark:text-indigo-300 flex gap-2'>
             <p className={monsterrat700.className}>
               she/her
             </p>
@@ -140,27 +140,27 @@ export default function Page() {
             </p>
           </div>
           
-          <div className='text-black dark:text-white'>
+          <div className='text-indigo-950 dark:text-white'>
             <div className='flex flex-wrap gap-x-2'>
               <p className='mb-4'>
                 Hi, I&apos;m Tiffany, a student in my 3rd year of the
                 <a href='https://public-health.tamu.edu/degrees/dual/bs-mph.html#tab-panel-2' 
                   target="_blank" rel="noopener noreferrer" 
-                  className='text-indigo-300 hover:text-purple-400'
+                  className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
                 >
                   <b className={monsterrat700.className}> 3+2 Master&apos;s program </b>
                 </a>
                 at Texas A&M University. Here, I&apos;m obtaining my
                 <a href='https://public-health.tamu.edu/index.html' 
                   target="_blank" rel="noopener noreferrer" 
-                  className='text-indigo-300 hover:text-purple-400'
+                  className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
                 >
                   <b className={monsterrat700.className}> Bachelor&apos;s and Master&apos;s in Public Health (BSPH + MPH) </b>
                 </a>
                 with a minor in 
                 <a href='https://engineering.tamu.edu/cse/index.html' 
                   target="_blank" rel="noopener noreferrer" 
-                  className='text-indigo-300 hover:text-purple-400'
+                  className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
                 >
                   <b className={monsterrat700.className}> Computer Science</b>
                 </a>
@@ -181,7 +181,7 @@ export default function Page() {
                 Musical, or re-watching
                 <a href='https://www.youtube.com/technoblade' 
                   target="_blank" rel="noopener noreferrer" 
-                  className='text-indigo-300 hover:text-purple-400'
+                  className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
                 >
                   <b className={monsterrat700.className}> Technoblade </b>
                 </a>

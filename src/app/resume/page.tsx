@@ -14,7 +14,7 @@ export default function Page() {
 
   return (
     <div className={ monsterrat400.className }>
-      <div className="mb-4 text-black dark:text-white">
+      <div className="mb-4 text-indigo-950 dark:text-white">
         { isLoading ? 
           <div className='flex gap-2 items-center'>
             <p>Retrieving resume...</p>
@@ -29,9 +29,9 @@ export default function Page() {
         }
       </div>
       <iframe src="https://drive.google.com/file/d/1ftjgwtEejwKk3NVNTiOyEWj78l0ll13g/preview" width="640" height="850" allow="autoplay" onLoad={() => setIsLoading(false)} />
-      <p className='mt-4 text-black dark:text-white'>
+      <p className='mt-4 text-indigo-950 dark:text-white'>
         Last updated: 
-        <span className='text-indigo-300 hover:text-purple-400'> 
+        <span className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'> 
           <b className={monsterrat700.className}> 11/25/2023</b>
         </span>
       </p>
