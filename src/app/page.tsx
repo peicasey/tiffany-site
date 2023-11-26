@@ -62,7 +62,7 @@ export default function Home() {
               />
             </span>
           </div>
-          <div className='text-7xl md:text-9xl text-indigo-500 dark:text-lilac flex gap-2 md:gap-6 duration-100'>
+          <div className='text-[4rem] sm:text-4xl text-7xl md:text-9xl text-indigo-500 dark:text-lilac flex gap-2 md:gap-6 duration-100'>
             <span className='absolute translate-x-[-1rem] translate-y-[3rem]
               md:translate-x-[-1.5rem] md:translate-y-[6rem] select-none' 
               aria-hidden="true"
@@ -93,14 +93,14 @@ export default function Home() {
               <a className='text-clementime'>i</a>
               <a className='text-amber-600'>f</a>
               <a className='text-mustard'>f</a>
-              <a className='text-[4rem] sm:text-md text-indigo-300'>a</a>
-              <a className='text-[4rem] sm:text-md text-magenta'>n</a>
+              <a className='text-indigo-300'>a</a>
+              <a className='text-magenta'>n</a>
               <a className='text-clementime'>y</a>
             </h1>
             <h1 className='translate-y-[-0.75rem] md:translate-y-0'>
               <a className='text-6xl md:text-[7rem] text-mustard'>P</a>
-              <a className='text-[4rem] sm:text-md text-blurple'>e</a>
-              <a className='text-[4rem] sm:text-md text-indigo-300'>i</a>
+              <a className='text-blurple'>e</a>
+              <a className='text-indigo-300'>i</a>
             </h1>
             <span className='translate-y-[2rem] md:translate-y-[4rem] select-none' aria-hidden="true">
               <Image
