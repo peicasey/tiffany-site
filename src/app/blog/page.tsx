@@ -11,7 +11,7 @@ export default function Page() {
       <p className='text-indigo-950 dark:text-white ' 
         style={monsterrat400.style}
       >
-        I've set up 
+        I&apos;ve set up 
         a <a 
           style={monsterrat700.style}
           className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
@@ -19,7 +19,7 @@ export default function Page() {
         >
           substack
         </a> to make write out my thoughts on certain
-        topics. I'm still figuring it out but let me cook :P
+        topics. I&apos;m still figuring it out but let me cook :P
       </p>
       <div className='rounded-xl overflow-hidden border-[#37314a] hover:border-indigo-300 border-[1px] duration-200'>
         <SubstackFeed />
