@@ -37,7 +37,7 @@ const currently = [
   {
     text: 
       <p>
-        Leading as the treasurer of 
+        Leading as the President of 
         <a href='https://winetowatertamu.wixsite.com/website' 
           target="_blank" rel="noopener noreferrer" 
           className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'
@@ -92,50 +92,52 @@ const currently = [
 export default function Page() {
     return (
       <div className={ monsterrat400.className }>
-       <div className='flex flex-col items-center'>
-          <Image
-            src={Tiff}
-            alt="A simplistic illustration of Tiffany Pei"
-            className="w-1/2 sm:w-50 h-auto rounded-[50%]"
-            priority
-          />
-          <div className='mt-2 mb-4 text-indigo-400 dark:text-indigo-300 flex gap-2'>
-            <p className={monsterrat700.className}>
-              she/her
-            </p>
+        <div className='flex flex-col lg:flex-row lg:gap-16 items-center lg:items-start'>
+          <div className='flex flex-col items-center lg:flex-grow'>
             <Image
-              src={star}
-              alt="star"
-              className=""
-              width={12}
-              height={12}
+              src={Tiff}
+              alt="A simplistic illustration of Tiffany Pei"
+              className="w-1/2 sm:w-50 min-w-[200px] h-auto rounded-[50%] lg:mx-6"
               priority
             />
-            <p className={monsterrat700.className}>
-              中文
-            </p>
-            <Image
-              src={star}
-              alt="star"
-              className=""
-              width={12}
-              height={12}
-              priority
-            />
-            <p className={monsterrat700.className}>
-              ENG
-            </p>
-            <Image
-              src={star}
-              alt="star"
-              className=""
-              width={12}
-              height={12}
-              priority
-            />
-            <p className={monsterrat700.className}>
-              FRN
-            </p>
+            <div className='mt-2 mb-4 text-indigo-400 dark:text-indigo-300 flex gap-2 items-center lg:text-xs'>
+              <p className={monsterrat700.className}>
+                she/her
+              </p>
+              <Image
+                src={star}
+                alt="star"
+                className=""
+                width={12}
+                height={12}
+                priority
+              />
+              <p className={monsterrat700.className}>
+                中文
+              </p>
+              <Image
+                src={star}
+                alt="star"
+                className=""
+                width={12}
+                height={12}
+                priority
+              />
+              <p className={monsterrat700.className}>
+                ENG
+              </p>
+              <Image
+                src={star}
+                alt="star"
+                className=""
+                width={12}
+                height={12}
+                priority
+              />
+              <p className={monsterrat700.className}>
+                FRN
+              </p>
+            </div>
           </div>
           
           <div className='text-indigo-950 dark:text-white text-sm sm:text-md'>

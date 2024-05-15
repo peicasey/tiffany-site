@@ -28,16 +28,18 @@ export default function Page() {
           </div>
         }
       </div>
-      <iframe 
-        src="https://drive.google.com/file/d/1ftjgwtEejwKk3NVNTiOyEWj78l0ll13g/preview" 
-        className='w-full h-[22rem] sm:h-[50rem]'
-        width="640" height="850" 
-        allow="autoplay" onLoad={() => setIsLoading(false)} 
-      />
+      <div className='rounded-2xl overflow-hidden'>
+        <iframe 
+          src="https://drive.google.com/file/d/1ftjgwtEejwKk3NVNTiOyEWj78l0ll13g/preview" 
+          className='w-full h-[22rem] sm:h-[50rem]'
+          width="640" height="850" 
+          allow="autoplay" onLoad={() => setIsLoading(false)} 
+        />
+      </div>
       <p className='mt-4 text-indigo-950 dark:text-white'>
         Last updated: 
         <span className='text-indigo-400 dark:text-indigo-300 hover:text-purple-400'> 
-          <b className={monsterrat700.className}> 11/25/2023</b>
+          <b className={monsterrat700.className}> 05/15/2024</b>
         </span>
       </p>
     </div>
