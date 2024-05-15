@@ -20,7 +20,7 @@ export default function Navbar() {
             </div>
             <div className='flex gap-6'>
                 <NavItem name="About" link="/about" />
-                {/* <NavItem name="Blog" link="/blog" /> */}
+                <NavItem name="Blog" link="/blog" />
                 <NavItem name="Resume" link="/resume" />
             </div>
         </div>
